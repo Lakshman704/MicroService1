@@ -13,4 +13,18 @@ eureka:
 server:
   port: 9091   # HTTP (Tomcat) port
   
+  
+info:
+  app: 
+   name: Spring Actuator Example
+   
+  
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+
+    
+
     
